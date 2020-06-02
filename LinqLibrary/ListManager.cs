@@ -17,7 +17,8 @@ namespace LinqLibrary
             output.Add(new Person { FirstName = " Emira", LastName = " Ursula ", Birthday = Convert.ToDateTime("16/08/1999"), YearsExperience = Convert.ToInt32("9") });
             output.Add(new Person { FirstName = " Demir", LastName = " Domanl ", Birthday = Convert.ToDateTime("16/08/2003"), YearsExperience = Convert.ToInt32("3") });
             output.Add(new Person { FirstName = " Amira", LastName = " Durabl ", Birthday = Convert.ToDateTime("16/08/1209"), YearsExperience = Convert.ToInt32("19") });
-
+            output.Add(new Person { FirstName = " Demik", LastName = " Domanl ", Birthday = Convert.ToDateTime("16/08/2003"), YearsExperience = Convert.ToInt32("30") });
+            output.Add(new Person { FirstName = " Amira", LastName = " Durabl ", Birthday = Convert.ToDateTime("16/08/1209"), YearsExperience = Convert.ToInt32("10") });
             return output;
         }
     }
