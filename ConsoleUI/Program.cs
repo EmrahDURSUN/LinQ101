@@ -31,11 +31,13 @@ namespace ConsoleUI
             //    Console.WriteLine($"{person.FirstName} {person.LastName} ( {person.Birthday.ToShortDateString() } ) : Experience {person.YearsExperience}");
             //}
 
+            int yearsSum = 0;
 
             int yearsTotal = people.Sum(x => x.YearsExperience); // Take each persons experience in people list. And sum up them
             Console.WriteLine($"Total experience is =  {yearsTotal}");  // output =  94
 
-
+            yearsSum = people.Where(x => x.Birthday.Month == 8).Sum(x => x.YearsExperience);
+            Console.WriteLine($" People who boen 8th monat has total experience =  {yearsSum}");
 
             Console.ReadLine();
         }
